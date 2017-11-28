@@ -1,0 +1,9 @@
+[Unit]
+Description=One-way sync from Google Contacts to Trojita every day
+
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=@sync
+
+[Install]
+WantedBy=timers.target

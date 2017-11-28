@@ -1,0 +1,6 @@
+[Unit]
+Description=one-way sync from Google Contacts to Trojita
+
+[Service]
+Type=oneshot
+ExecStart=@prefix/bin/trojita-google-contacts
